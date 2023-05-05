@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en" mode="ios">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+    <title>Famicons Icon Component</title>
+    <script type="module" src="/build/famicons.esm.js"></script>
+    <script nomodule src="/build/famicons.js"></script>
+  </head>
+
+  <body>
+    <h1>Famicons</h1>
+
+    <h2>Default</h2>
+    <fml-icon name="cellular"></fml-icon>
+    <fml-icon name="at"></fml-icon>
+    <fml-icon name="call"></fml-icon>
+    <fml-icon name="football"></fml-icon>
+    <fml-icon name="analytics"></fml-icon>
+    <fml-icon name="grid"></fml-icon>
+    <fml-icon name="funnel"></fml-icon>
+    <fml-icon name="watch"></fml-icon>
+    <fml-icon name="add-circle-outline"></fml-icon>
+
+    <h2>Mode from html ios mode attribute</h2>
+    <fml-icon md="logo-android" ios="logo-apple"></fml-icon>
+    <fml-icon md="logo-android" ios="logo-apple"></fml-icon>
+
+    <h2>Mode set on icon</h2>
+    <fml-icon mode="ios" md="logo-android" ios="logo-apple"></fml-icon>
+    <fml-icon mode="md" md="logo-android" ios="logo-apple"></fml-icon>
+
+    <h2>Colors</h2>
+    <fml-icon color="primary" name="cellular"></fml-icon>
+    <fml-icon color="secondary" name="at"></fml-icon>
+    <fml-icon color="tertiary" name="call"></fml-icon>
+    <fml-icon color="success" name="football"></fml-icon>
+    <fml-icon color="warning" name="analytics"></fml-icon>
+    <fml-icon color="danger" name="grid"></fml-icon>
+    <fml-icon color="light" name="funnel"></fml-icon>
+    <fml-icon color="medium" name="watch"></fml-icon>
+    <fml-icon color="dark" name="toggle"></fml-icon>
+
+    <h2>Stroke width</h2>
+    <fml-icon name="heart-outline" style="--famicon-stroke-width: 8px"></fml-icon>
+
+    <h2>Font size</h2>
+    <fml-icon name="book" style="font-size: 50px"></fml-icon>
+    <fml-icon src="./assets/bug_report.svg" style="font-size: 50px"></fml-icon>
+
+    <h2>Custom SVGs</h2>
+    <fml-icon src="./assets/bug_report.svg"></fml-icon>
+    <fml-icon src="./assets/chat.svg"></fml-icon>
+    <fml-icon src="./assets/commute.svg"></fml-icon>
+    <fml-icon src="./assets/copyright.svg"></fml-icon>
+    <fml-icon src="./assets/done_all.svg"></fml-icon>
+    <fml-icon src="./assets/lock_open.svg"></fml-icon>
+    <fml-icon src="./assets/toll.svg"></fml-icon>
+    <fml-icon src="./assets/web_asset.svg"></fml-icon>
+    <fml-icon src="./assets/work_outline.svg"></fml-icon>
+
+    <h2>Custom SVGs: colors</h2>
+    <fml-icon color="primary" src="./assets/bug_report.svg"></fml-icon>
+    <fml-icon color="secondary" src="./assets/chat.svg"></fml-icon>
+    <fml-icon color="tertiary" src="./assets/commute.svg"></fml-icon>
+    <fml-icon color="success" src="./assets/copyright.svg"></fml-icon>
+    <fml-icon color="warning" src="./assets/done_all.svg"></fml-icon>
+    <fml-icon color="danger" src="./assets/lock_open.svg"></fml-icon>
+    <fml-icon color="light" src="./assets/toll.svg"></fml-icon>
+    <fml-icon color="medium" src="./assets/web_asset.svg"></fml-icon>
+    <fml-icon color="dark" src="./assets/work_outline.svg"></fml-icon>
+
+    <h2>Custom CSS</h2>
+    <fml-icon class="custom" name="grid"></fml-icon>
+    <fml-icon class="custom" name="funnel"></fml-icon>
+    <fml-icon class="custom" name="watch"></fml-icon>
+    <fml-icon class="custom" name="logo-react"></fml-icon>
+    <fml-icon class="custom" name="logo-javascript"></fml-icon>
+    <fml-icon class="custom" name="logo-kdu"></fml-icon>
+    <fml-icon class="custom" src="./assets/done_all.svg"></fml-icon>
+    <fml-icon class="custom" src="./assets/web_asset.svg"></fml-icon>
+    <fml-icon class="custom" src="./assets/work_outline.svg"></fml-icon>
+
+    <h2>Aria</h2>
+    <fml-icon name="cellular"></fml-icon>
+    <fml-icon name="cellular" aria-label="Mobile data"></fml-icon>
+    <fml-icon name="cellular" aria-hidden="true"></fml-icon>
+
+    <h1>RTL</h1>
+
+    <h2>Default: Non-arrows</h2>
+    <fml-icon name="cut"></fml-icon>
+    <fml-icon name="call"></fml-icon>
+    <fml-icon name="checkbox"></fml-icon>
+    <fml-icon name="brush"></fml-icon>
+
+    <h2>Flip: Non-arrows</h2>
+    <fml-icon name="cut" flip-rtl></fml-icon>
+    <fml-icon name="call" flip-rtl></fml-icon>
+    <fml-icon name="checkbox" flip-rtl></fml-icon>
+    <fml-icon name="brush" flip-rtl></fml-icon>
+
+    <h2>Auto Flip: arrows</h2>
+    <fml-icon name="arrow-up"></fml-icon>
+    <fml-icon name="arrow-forward"></fml-icon>
+    <fml-icon name="arrow-down"></fml-icon>
+    <fml-icon name="arrow-back"></fml-icon>
+
+    <h2>Un-flip: arrows</h2>
+    <fml-icon name="arrow-up" flip-rtl="false"></fml-icon>
+    <fml-icon name="arrow-forward" flip-rtl="false"></fml-icon>
+    <fml-icon name="arrow-down" flip-rtl="false"></fml-icon>
+    <fml-icon name="arrow-back" flip-rtl="false"></fml-icon>
+
+    <h2>Auto Flip: chevrons</h2>
+    <fml-icon name="chevron-up"></fml-icon>
+    <fml-icon name="chevron-forward"></fml-icon>
+    <fml-icon name="chevron-down"></fml-icon>
+    <fml-icon name="chevron-back"></fml-icon>
+
+    <h2>Un-flip: chevrons</h2>
+    <fml-icon name="chevron-up" flip-rtl="false"></fml-icon>
+    <fml-icon name="chevron-forward" flip-rtl="false"></fml-icon>
+    <fml-icon name="chevron-down" flip-rtl="false"></fml-icon>
+    <fml-icon name="chevron-back" flip-rtl="false"></fml-icon>
+
+    <h2>Auto Flip, RTL on components</h2>
+    <fml-icon name="arrow-up" dir="rtl" flip-rtl></fml-icon>
+    <fml-icon name="arrow-forward" dir="rtl" flip-rtl></fml-icon>
+    <fml-icon name="arrow-down" dir="rtl" flip-rtl></fml-icon>
+    <fml-icon name="arrow-back" dir="rtl" flip-rtl></fml-icon>
+
+    <h2>Sanitized (shouldn't show)</h2>
+    <fml-icon src="./assets/sanitize.svg"></fml-icon>
+
+    <h2>Not Sanitized (should show)</h2>
+    <fml-icon sanitize="false" src="./assets/no-sanitize.svg"></fml-icon>
+
+    <p>
+      <a href="./cheatsheet.html">Cheatsheet</a>
+    </p>
+
+    <style>
+      body {
+        margin: 0;
+        padding: 16px;
+        font-size: 32px;
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      }
+
+      h1 {
+        margin: 15px 0 5px;
+        font-size: 25px;
+      }
+
+      h2 {
+        margin: 15px 0 5px;
+        font-size: 18px;
+      }
+
+      .custom {
+        stroke: red;
+        fill: blue;
+      }
+    </style>
+  </body>
+</html>
