@@ -21,8 +21,7 @@
     "start": "rindo build --dev --watch --serve",
     "test": "npm run test.spec",
     "test.spec": "rindo test --spec",
-    "release": "np --no-2fa",
-    "version": "npm run build"
+    "release": "np --no-2fa"
   },
   "dependencies": {
     "@rindo/core": "^2.18.1"
