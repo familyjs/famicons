@@ -1,0 +1,62 @@
+name: 'Famicons Production Release'
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        required: true
+        type: choice
+        description: Which version should be published?
+        options:
+          - patch
+          - minor
+          - major
+      tag:
+        required: true
+        type: choice
+        description: Which npm tag should this be published to?
+        options:
+          - latest
+
+jobs:
+  release-famicons:
+    uses: ./.github/workflows/release-famicons.yml
+    with:
+      tag: ${{ inputs.tag }}
+      version: ${{ inputs.version }}
+    secrets:
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+  
+  finalize-release:
+    needs: [release-famicons]
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GH_TOKEN }}
+        fetch-depth: 0
+    - name: Configure Identity
+      # Commits from github-actions do not
+      # trigger other GitHub Actions. As a result,
+      # we publish releases from NKDuy instead
+      # so actions run when merging the release branch
+      # back into main.
+      run: |
+        git config user.name NKDuy
+        git config user.email nkduy.dev@gmail.com
+      shell: bash
+    - name: Create GitHub Release
+      run: lerna version ${{ inputs.version }} --yes --force-publish='*' --conventional-commits --create-release github
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      shell: bash
+    # Lerna does not automatically bump versions
+    # of Famicons dependencies that have changed,
+    # so we do that here.
+    - name: Bump Package Lock
+      run: |
+        lerna exec "npm install --package-lock-only --legacy-peer-deps"
+        git add .
+        git commit -m "chore(): update package lock files"
+        git push
+      shell: bash
