@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.1.3](https://github.com/familyjs/famicons/compare/v6.1.2...v6.1.3) (2023-05-06)
+
+
+### Bug Fixes
+
+* DomParser usage in SSR ([6d01457](https://github.com/familyjs/famicons/commit/6d0145780bc23750bf5a055588bbb93b62a2e2ea))
+
+
+
+
+
+## [6.1.3](https://github.com/familyjs/famicons/compare/v6.1.2...v6.1.3) (2023-05-06)
+
+
+### Bug Fixes
+
+* DomParser usage in SSR ([6d01457](https://github.com/familyjs/famicons/commit/6d0145780bc23750bf5a055588bbb93b62a2e2ea))
+
+
+
+
+
 ## [6.1.2](https://github.com/familyjs/famicons/compare/v6.1.1...v6.1.2) (2023-05-06)
 
 
