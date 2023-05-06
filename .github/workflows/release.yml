@@ -19,7 +19,7 @@ on:
           - latest
 
 jobs:
-  release-ionicons:
+  release-famicons:
     uses: ./.github/workflows/release-famicons.yml
     with:
       tag: ${{ inputs.tag }}
