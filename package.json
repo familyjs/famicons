@@ -21,7 +21,7 @@
     "start": "rindo build --dev --watch --serve"
   },
   "dependencies": {
-    "@rindo/core": "^2.22.3"
+    "@rindo/core": "^2.18.1"
   },
   "devDependencies": {
     "@types/fs-extra": "^9.0.6",
