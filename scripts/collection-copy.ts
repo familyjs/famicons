@@ -10,7 +10,7 @@ async function collectionCopy(rootDir: string) {
   // we don't to copy the src svgs to collection
   await fs.remove(join(rootDir, 'dist', 'collection', 'svg'));
   // We don't want to copy the test svg assets to collection
-  await fs.remove(join(rootDir, 'dist', 'collection', 'components'));
+  await fs.remove(join(rootDir, 'dist', 'collection', 'components', 'test'));
 
   const cePackageDir = join(rootDir, 'components');
   const cePackageJsonPath = join(cePackageDir, 'package.json');

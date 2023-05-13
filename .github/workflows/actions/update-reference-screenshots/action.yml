@@ -20,8 +20,8 @@ runs:
       shell: bash
       working-directory: ./artifacts
     - name: Push Screenshots
-      # Configure user as NKDuy and push
-      # only the changed .png snapshots
+      # Configure user as NKDuy
+      # and push only the changed .png snapshots
       # to the remote branch.
       # Screenshots are in .gitignore
       # to prevent local screenshots from getting
