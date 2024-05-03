@@ -1,6 +1,26 @@
 {
   "icons": [
     {
+      "name": "accessibility",
+      "tags": [
+        "accessibility"
+      ]
+    },
+    {
+      "name": "accessibility-outline",
+      "tags": [
+        "accessibility",
+        "outline"
+      ]
+    },
+    {
+      "name": "accessibility-sharp",
+      "tags": [
+        "accessibility",
+        "sharp"
+      ]
+    },
+    {
       "name": "add",
       "tags": [
         "add",
@@ -763,6 +783,158 @@
       ]
     },
     {
+      "name": "bag",
+      "tags": [
+        "bag"
+      ]
+    },
+    {
+      "name": "bag-add",
+      "tags": [
+        "add",
+        "bag"
+      ]
+    },
+    {
+      "name": "bag-add-outline",
+      "tags": [
+        "add",
+        "bag",
+        "outline"
+      ]
+    },
+    {
+      "name": "bag-add-sharp",
+      "tags": [
+        "add",
+        "bag",
+        "sharp"
+      ]
+    },
+    {
+      "name": "bag-check",
+      "tags": [
+        "bag",
+        "check"
+      ]
+    },
+    {
+      "name": "bag-check-outline",
+      "tags": [
+        "bag",
+        "check",
+        "outline"
+      ]
+    },
+    {
+      "name": "bag-check-sharp",
+      "tags": [
+        "bag",
+        "check",
+        "sharp"
+      ]
+    },
+    {
+      "name": "bag-handle",
+      "tags": [
+        "bag",
+        "handle"
+      ]
+    },
+    {
+      "name": "bag-handle-outline",
+      "tags": [
+        "bag",
+        "handle",
+        "outline"
+      ]
+    },
+    {
+      "name": "bag-handle-sharp",
+      "tags": [
+        "bag",
+        "handle",
+        "sharp"
+      ]
+    },
+    {
+      "name": "bag-outline",
+      "tags": [
+        "bag",
+        "outline"
+      ]
+    },
+    {
+      "name": "bag-remove",
+      "tags": [
+        "bag",
+        "remove"
+      ]
+    },
+    {
+      "name": "bag-remove-outline",
+      "tags": [
+        "bag",
+        "outline",
+        "remove"
+      ]
+    },
+    {
+      "name": "bag-remove-sharp",
+      "tags": [
+        "bag",
+        "remove",
+        "sharp"
+      ]
+    },
+    {
+      "name": "bag-sharp",
+      "tags": [
+        "bag",
+        "sharp"
+      ]
+    },
+    {
+      "name": "balloon",
+      "tags": [
+        "balloon"
+      ]
+    },
+    {
+      "name": "balloon-outline",
+      "tags": [
+        "balloon",
+        "outline"
+      ]
+    },
+    {
+      "name": "balloon-sharp",
+      "tags": [
+        "balloon",
+        "sharp"
+      ]
+    },
+    {
+      "name": "ban",
+      "tags": [
+        "ban"
+      ]
+    },
+    {
+      "name": "ban-outline",
+      "tags": [
+        "ban",
+        "outline"
+      ]
+    },
+    {
+      "name": "ban-sharp",
+      "tags": [
+        "ban",
+        "sharp"
+      ]
+    },
+    {
       "name": "bandage",
       "tags": [
         "bandage"
@@ -1290,6 +1462,29 @@
       ]
     },
     {
+      "name": "bowling-ball",
+      "tags": [
+        "ball",
+        "bowling"
+      ]
+    },
+    {
+      "name": "bowling-ball-outline",
+      "tags": [
+        "ball",
+        "bowling",
+        "outline"
+      ]
+    },
+    {
+      "name": "bowling-ball-sharp",
+      "tags": [
+        "ball",
+        "bowling",
+        "sharp"
+      ]
+    },
+    {
       "name": "briefcase",
       "tags": [
         "briefcase",
@@ -1532,6 +1727,52 @@
       ]
     },
     {
+      "name": "calendar-clear",
+      "tags": [
+        "calendar",
+        "clear"
+      ]
+    },
+    {
+      "name": "calendar-clear-outline",
+      "tags": [
+        "calendar",
+        "clear",
+        "outline"
+      ]
+    },
+    {
+      "name": "calendar-clear-sharp",
+      "tags": [
+        "calendar",
+        "clear",
+        "sharp"
+      ]
+    },
+    {
+      "name": "calendar-number",
+      "tags": [
+        "calendar",
+        "number"
+      ]
+    },
+    {
+      "name": "calendar-number-outline",
+      "tags": [
+        "calendar",
+        "number",
+        "outline"
+      ]
+    },
+    {
+      "name": "calendar-number-sharp",
+      "tags": [
+        "calendar",
+        "number",
+        "sharp"
+      ]
+    },
+    {
       "name": "calendar-outline",
       "tags": [
         "calendar",
@@ -1713,6 +1954,7 @@
     {
       "name": "caret-back",
       "tags": [
+        "arrow",
         "back",
         "caret"
       ]
@@ -1720,6 +1962,7 @@
     {
       "name": "caret-back-circle",
       "tags": [
+        "arrow",
         "back",
         "caret",
         "circle"
@@ -1728,6 +1971,7 @@
     {
       "name": "caret-back-circle-outline",
       "tags": [
+        "arrow",
         "back",
         "caret",
         "circle",
@@ -1737,6 +1981,7 @@
     {
       "name": "caret-back-circle-sharp",
       "tags": [
+        "arrow",
         "back",
         "caret",
         "circle",
@@ -1747,6 +1992,7 @@
     {
       "name": "caret-back-outline",
       "tags": [
+        "arrow",
         "back",
         "caret",
         "left",
@@ -1756,6 +2002,7 @@
     {
       "name": "caret-back-sharp",
       "tags": [
+        "arrow",
         "back",
         "caret",
         "left",
@@ -1765,6 +2012,7 @@
     {
       "name": "caret-down",
       "tags": [
+        "arrow",
         "caret",
         "down"
       ]
@@ -1772,6 +2020,7 @@
     {
       "name": "caret-down-circle",
       "tags": [
+        "arrow",
         "caret",
         "circle",
         "down"
@@ -1780,6 +2029,7 @@
     {
       "name": "caret-down-circle-outline",
       "tags": [
+        "arrow",
         "caret",
         "circle",
         "down",
@@ -1789,6 +2039,7 @@
     {
       "name": "caret-down-circle-sharp",
       "tags": [
+        "arrow",
         "caret",
         "circle",
         "down",
@@ -1798,6 +2049,7 @@
     {
       "name": "caret-down-outline",
       "tags": [
+        "arrow",
         "caret",
         "down",
         "outline"
@@ -1806,6 +2058,7 @@
     {
       "name": "caret-down-sharp",
       "tags": [
+        "arrow",
         "caret",
         "down",
         "sharp"
@@ -1814,6 +2067,7 @@
     {
       "name": "caret-forward",
       "tags": [
+        "arrow",
         "caret",
         "forward",
         "right"
@@ -1822,6 +2076,7 @@
     {
       "name": "caret-forward-circle",
       "tags": [
+        "arrow",
         "caret",
         "circle",
         "forward",
@@ -1831,6 +2086,7 @@
     {
       "name": "caret-forward-circle-outline",
       "tags": [
+        "arrow",
         "caret",
         "circle",
         "forward",
@@ -1841,6 +2097,7 @@
     {
       "name": "caret-forward-circle-sharp",
       "tags": [
+        "arrow",
         "caret",
         "circle",
         "forward",
@@ -1851,6 +2108,7 @@
     {
       "name": "caret-forward-outline",
       "tags": [
+        "arrow",
         "caret",
         "forward",
         "outline",
@@ -1860,6 +2118,7 @@
     {
       "name": "caret-forward-sharp",
       "tags": [
+        "arrow",
         "caret",
         "forward",
         "right",
@@ -1869,6 +2128,7 @@
     {
       "name": "caret-up",
       "tags": [
+        "arrow",
         "caret",
         "up"
       ]
@@ -1876,6 +2136,7 @@
     {
       "name": "caret-up-circle",
       "tags": [
+        "arrow",
         "caret",
         "circle",
         "up"
@@ -1884,6 +2145,7 @@
     {
       "name": "caret-up-circle-outline",
       "tags": [
+        "arrow",
         "caret",
         "circle",
         "outline",
@@ -1893,6 +2155,7 @@
     {
       "name": "caret-up-circle-sharp",
       "tags": [
+        "arrow",
         "caret",
         "circle",
         "sharp",
@@ -1902,6 +2165,7 @@
     {
       "name": "caret-up-outline",
       "tags": [
+        "arrow",
         "caret",
         "outline",
         "up"
@@ -1910,6 +2174,7 @@
     {
       "name": "caret-up-sharp",
       "tags": [
+        "arrow",
         "caret",
         "sharp",
         "up"
@@ -2222,6 +2487,7 @@
     {
       "name": "chevron-back",
       "tags": [
+        "arrow",
         "back",
         "chevron",
         "left"
@@ -2230,6 +2496,7 @@
     {
       "name": "chevron-back-circle",
       "tags": [
+        "arrow",
         "back",
         "chevron",
         "circle",
@@ -2239,6 +2506,7 @@
     {
       "name": "chevron-back-circle-outline",
       "tags": [
+        "arrow",
         "back",
         "chevron",
         "circle",
@@ -2249,6 +2517,7 @@
     {
       "name": "chevron-back-circle-sharp",
       "tags": [
+        "arrow",
         "back",
         "chevron",
         "circle",
@@ -2259,6 +2528,7 @@
     {
       "name": "chevron-back-outline",
       "tags": [
+        "arrow",
         "back",
         "chevron",
         "left",
@@ -2268,6 +2538,7 @@
     {
       "name": "chevron-back-sharp",
       "tags": [
+        "arrow",
         "back",
         "chevron",
         "left",
@@ -2277,6 +2548,7 @@
     {
       "name": "chevron-down",
       "tags": [
+        "arrow",
         "chevron",
         "down"
       ]
@@ -2284,6 +2556,7 @@
     {
       "name": "chevron-down-circle",
       "tags": [
+        "arrow",
         "chevron",
         "circle",
         "down"
@@ -2292,6 +2565,7 @@
     {
       "name": "chevron-down-circle-outline",
       "tags": [
+        "arrow",
         "chevron",
         "circle",
         "down",
@@ -2301,6 +2575,7 @@
     {
       "name": "chevron-down-circle-sharp",
       "tags": [
+        "arrow",
         "chevron",
         "circle",
         "down",
@@ -2310,6 +2585,7 @@
     {
       "name": "chevron-down-outline",
       "tags": [
+        "arrow",
         "chevron",
         "down",
         "outline"
@@ -2318,6 +2594,7 @@
     {
       "name": "chevron-down-sharp",
       "tags": [
+        "arrow",
         "chevron",
         "down",
         "sharp"
@@ -2326,6 +2603,7 @@
     {
       "name": "chevron-forward",
       "tags": [
+        "arrow",
         "chevron",
         "forward",
         "right"
@@ -2334,6 +2612,7 @@
     {
       "name": "chevron-forward-circle",
       "tags": [
+        "arrow",
         "chevron",
         "circle",
         "forward",
@@ -2343,6 +2622,7 @@
     {
       "name": "chevron-forward-circle-outline",
       "tags": [
+        "arrow",
         "chevron",
         "circle",
         "forward",
@@ -2353,6 +2633,7 @@
     {
       "name": "chevron-forward-circle-sharp",
       "tags": [
+        "arrow",
         "chevron",
         "circle",
         "forward",
@@ -2363,6 +2644,7 @@
     {
       "name": "chevron-forward-outline",
       "tags": [
+        "arrow",
         "chevron",
         "forward",
         "outline",
@@ -2372,6 +2654,7 @@
     {
       "name": "chevron-forward-sharp",
       "tags": [
+        "arrow",
         "chevron",
         "forward",
         "right",
@@ -2381,6 +2664,7 @@
     {
       "name": "chevron-up",
       "tags": [
+        "arrow",
         "chevron",
         "up"
       ]
@@ -2388,6 +2672,7 @@
     {
       "name": "chevron-up-circle",
       "tags": [
+        "arrow",
         "chevron",
         "circle",
         "up"
@@ -2396,6 +2681,7 @@
     {
       "name": "chevron-up-circle-outline",
       "tags": [
+        "arrow",
         "chevron",
         "circle",
         "outline",
@@ -2405,6 +2691,7 @@
     {
       "name": "chevron-up-circle-sharp",
       "tags": [
+        "arrow",
         "chevron",
         "circle",
         "sharp",
@@ -2414,6 +2701,7 @@
     {
       "name": "chevron-up-outline",
       "tags": [
+        "arrow",
         "chevron",
         "outline",
         "up"
@@ -2422,6 +2710,7 @@
     {
       "name": "chevron-up-sharp",
       "tags": [
+        "arrow",
         "chevron",
         "sharp",
         "up"
@@ -2431,6 +2720,8 @@
       "name": "clipboard",
       "tags": [
         "clipboard",
+        "copy",
+        "paste",
         "write"
       ]
     },
@@ -2438,7 +2729,9 @@
       "name": "clipboard-outline",
       "tags": [
         "clipboard",
+        "copy",
         "outline",
+        "paste",
         "write"
       ]
     },
@@ -2446,6 +2739,8 @@
       "name": "clipboard-sharp",
       "tags": [
         "clipboard",
+        "copy",
+        "paste",
         "sharp",
         "write"
       ]
@@ -3211,6 +3506,46 @@
       ]
     },
     {
+      "name": "diamond",
+      "tags": [
+        "diamond"
+      ]
+    },
+    {
+      "name": "diamond-outline",
+      "tags": [
+        "diamond",
+        "outline"
+      ]
+    },
+    {
+      "name": "diamond-sharp",
+      "tags": [
+        "diamond",
+        "sharp"
+      ]
+    },
+    {
+      "name": "dice",
+      "tags": [
+        "dice"
+      ]
+    },
+    {
+      "name": "dice-outline",
+      "tags": [
+        "dice",
+        "outline"
+      ]
+    },
+    {
+      "name": "dice-sharp",
+      "tags": [
+        "dice",
+        "sharp"
+      ]
+    },
+    {
       "name": "disc",
       "tags": [
         "cd",
@@ -3264,6 +3599,29 @@
       "tags": [
         "attach",
         "document",
+        "sharp"
+      ]
+    },
+    {
+      "name": "document-lock",
+      "tags": [
+        "document",
+        "lock"
+      ]
+    },
+    {
+      "name": "document-lock-outline",
+      "tags": [
+        "document",
+        "lock",
+        "outline"
+      ]
+    },
+    {
+      "name": "document-lock-sharp",
+      "tags": [
+        "document",
+        "lock",
         "sharp"
       ]
     },
@@ -3394,13 +3752,15 @@
     {
       "name": "earth",
       "tags": [
-        "earth"
+        "earth",
+        "globe"
       ]
     },
     {
       "name": "earth-outline",
       "tags": [
         "earth",
+        "globe",
         "outline"
       ]
     },
@@ -3408,6 +3768,7 @@
       "name": "earth-sharp",
       "tags": [
         "earth",
+        "globe",
         "sharp"
       ]
     },
@@ -3647,6 +4008,29 @@
       ]
     },
     {
+      "name": "extension-puzzle",
+      "tags": [
+        "extension",
+        "puzzle"
+      ]
+    },
+    {
+      "name": "extension-puzzle-outline",
+      "tags": [
+        "extension",
+        "outline",
+        "puzzle"
+      ]
+    },
+    {
+      "name": "extension-puzzle-sharp",
+      "tags": [
+        "extension",
+        "puzzle",
+        "sharp"
+      ]
+    },
+    {
       "name": "eye",
       "tags": [
         "exposed",
@@ -3878,6 +4262,29 @@
       ]
     },
     {
+      "name": "filter-circle",
+      "tags": [
+        "circle",
+        "filter"
+      ]
+    },
+    {
+      "name": "filter-circle-outline",
+      "tags": [
+        "circle",
+        "filter",
+        "outline"
+      ]
+    },
+    {
+      "name": "filter-circle-sharp",
+      "tags": [
+        "circle",
+        "filter",
+        "sharp"
+      ]
+    },
+    {
       "name": "filter-outline",
       "tags": [
         "filter",
@@ -3911,6 +4318,26 @@
       "tags": [
         "finger",
         "print",
+        "sharp"
+      ]
+    },
+    {
+      "name": "fish",
+      "tags": [
+        "fish"
+      ]
+    },
+    {
+      "name": "fish-outline",
+      "tags": [
+        "fish",
+        "outline"
+      ]
+    },
+    {
+      "name": "fish-sharp",
+      "tags": [
+        "fish",
         "sharp"
       ]
     },
@@ -4177,6 +4604,26 @@
         "football",
         "sharp",
         "soccer"
+      ]
+    },
+    {
+      "name": "footsteps",
+      "tags": [
+        "footsteps"
+      ]
+    },
+    {
+      "name": "footsteps-outline",
+      "tags": [
+        "footsteps",
+        "outline"
+      ]
+    },
+    {
+      "name": "footsteps-sharp",
+      "tags": [
+        "footsteps",
+        "sharp"
       ]
     },
     {
@@ -4928,6 +5375,29 @@
       ]
     },
     {
+      "name": "id-card",
+      "tags": [
+        "card",
+        "id"
+      ]
+    },
+    {
+      "name": "id-card-outline",
+      "tags": [
+        "card",
+        "id",
+        "outline"
+      ]
+    },
+    {
+      "name": "id-card-sharp",
+      "tags": [
+        "card",
+        "id",
+        "sharp"
+      ]
+    },
+    {
       "name": "image",
       "tags": [
         "camera",
@@ -5054,6 +5524,29 @@
         "help",
         "information",
         "knowledge",
+        "sharp"
+      ]
+    },
+    {
+      "name": "invert-mode",
+      "tags": [
+        "invert",
+        "mode"
+      ]
+    },
+    {
+      "name": "invert-mode-outline",
+      "tags": [
+        "invert",
+        "mode",
+        "outline"
+      ]
+    },
+    {
+      "name": "invert-mode-sharp",
+      "tags": [
+        "invert",
+        "mode",
         "sharp"
       ]
     },
@@ -5417,16 +5910,14 @@
     {
       "name": "log-in",
       "tags": [
-        "in",
-        "log",
+        "login",
         "signin"
       ]
     },
     {
       "name": "log-in-outline",
       "tags": [
-        "in",
-        "log",
+        "login",
         "outline",
         "signin"
       ]
@@ -5434,8 +5925,7 @@
     {
       "name": "log-in-sharp",
       "tags": [
-        "in",
-        "log",
+        "login",
         "sharp",
         "signin"
       ]
@@ -5443,16 +5933,14 @@
     {
       "name": "log-out",
       "tags": [
-        "log",
-        "out",
+        "logout",
         "signout"
       ]
     },
     {
       "name": "log-out-outline",
       "tags": [
-        "log",
-        "out",
+        "logout",
         "outline",
         "signout"
       ]
@@ -5460,10 +5948,16 @@
     {
       "name": "log-out-sharp",
       "tags": [
-        "log",
-        "out",
+        "logout",
         "sharp",
         "signout"
+      ]
+    },
+    {
+      "name": "logo-alipay",
+      "tags": [
+        "alipay",
+        "logo"
       ]
     },
     {
@@ -5510,6 +6004,14 @@
       ]
     },
     {
+      "name": "logo-apple-ar",
+      "tags": [
+        "apple",
+        "ar",
+        "logo"
+      ]
+    },
+    {
       "name": "logo-behance",
       "tags": [
         "behance",
@@ -5534,13 +6036,6 @@
       "name": "logo-buffer",
       "tags": [
         "buffer",
-        "logo"
-      ]
-    },
-    {
-      "name": "logo-capacitor",
-      "tags": [
-        "capacitor",
         "logo"
       ]
     },
@@ -5577,6 +6072,20 @@
       "name": "logo-designernews",
       "tags": [
         "designernews",
+        "logo"
+      ]
+    },
+    {
+      "name": "logo-deviantart",
+      "tags": [
+        "deviantart",
+        "logo"
+      ]
+    },
+    {
+      "name": "logo-discord",
+      "tags": [
+        "discord",
         "logo"
       ]
     },
@@ -5630,9 +6139,23 @@
       ]
     },
     {
+      "name": "logo-famibot",
+      "tags": [
+        "famibot",
+        "logo"
+      ]
+    },
+    {
       "name": "logo-family",
       "tags": [
         "family",
+        "logo"
+      ]
+    },
+    {
+      "name": "logo-figma",
+      "tags": [
+        "figma",
         "logo"
       ]
     },
@@ -5715,13 +6238,6 @@
       ]
     },
     {
-      "name": "logo-ionic",
-      "tags": [
-        "ionic",
-        "logo"
-      ]
-    },
-    {
       "name": "logo-javascript",
       "tags": [
         "javascript",
@@ -5764,10 +6280,24 @@
       ]
     },
     {
+      "name": "logo-mastodon",
+      "tags": [
+        "logo",
+        "mastodon"
+      ]
+    },
+    {
       "name": "logo-medium",
       "tags": [
         "logo",
         "medium"
+      ]
+    },
+    {
+      "name": "logo-microsoft",
+      "tags": [
+        "logo",
+        "microsoft"
       ]
     },
     {
@@ -5912,10 +6442,10 @@
       ]
     },
     {
-      "name": "logo-stencil",
+      "name": "logo-tableau",
       "tags": [
         "logo",
-        "stencil"
+        "tableau"
       ]
     },
     {
@@ -5968,6 +6498,13 @@
       ]
     },
     {
+      "name": "logo-vercel",
+      "tags": [
+        "logo",
+        "vercel"
+      ]
+    },
+    {
       "name": "logo-vimeo",
       "tags": [
         "logo",
@@ -5994,6 +6531,13 @@
         "component",
         "logo",
         "web"
+      ]
+    },
+    {
+      "name": "logo-wechat",
+      "tags": [
+        "logo",
+        "wechat"
       ]
     },
     {
@@ -7888,6 +8432,26 @@
       ]
     },
     {
+      "name": "prism",
+      "tags": [
+        "prism"
+      ]
+    },
+    {
+      "name": "prism-outline",
+      "tags": [
+        "outline",
+        "prism"
+      ]
+    },
+    {
+      "name": "prism-sharp",
+      "tags": [
+        "prism",
+        "sharp"
+      ]
+    },
+    {
       "name": "pulse",
       "tags": [
         "hot",
@@ -8654,6 +9218,26 @@
       ]
     },
     {
+      "name": "scale",
+      "tags": [
+        "scale"
+      ]
+    },
+    {
+      "name": "scale-outline",
+      "tags": [
+        "outline",
+        "scale"
+      ]
+    },
+    {
+      "name": "scale-sharp",
+      "tags": [
+        "scale",
+        "sharp"
+      ]
+    },
+    {
       "name": "scan",
       "tags": [
         "scan"
@@ -8933,6 +9517,29 @@
       ]
     },
     {
+      "name": "shield-half",
+      "tags": [
+        "half",
+        "shield"
+      ]
+    },
+    {
+      "name": "shield-half-outline",
+      "tags": [
+        "half",
+        "outline",
+        "shield"
+      ]
+    },
+    {
+      "name": "shield-half-sharp",
+      "tags": [
+        "half",
+        "sharp",
+        "shield"
+      ]
+    },
+    {
       "name": "shield-outline",
       "tags": [
         "outline",
@@ -9029,6 +9636,26 @@
         "cold",
         "sharp",
         "snow"
+      ]
+    },
+    {
+      "name": "sparkles",
+      "tags": [
+        "sparkles"
+      ]
+    },
+    {
+      "name": "sparkles-outline",
+      "tags": [
+        "outline",
+        "sparkles"
+      ]
+    },
+    {
+      "name": "sparkles-sharp",
+      "tags": [
+        "sharp",
+        "sparkles"
       ]
     },
     {
@@ -9220,6 +9847,26 @@
       ]
     },
     {
+      "name": "storefront",
+      "tags": [
+        "storefront"
+      ]
+    },
+    {
+      "name": "storefront-outline",
+      "tags": [
+        "outline",
+        "storefront"
+      ]
+    },
+    {
+      "name": "storefront-sharp",
+      "tags": [
+        "sharp",
+        "storefront"
+      ]
+    },
+    {
       "name": "subway",
       "tags": [
         "subway"
@@ -9407,6 +10054,26 @@
       ]
     },
     {
+      "name": "telescope",
+      "tags": [
+        "telescope"
+      ]
+    },
+    {
+      "name": "telescope-outline",
+      "tags": [
+        "outline",
+        "telescope"
+      ]
+    },
+    {
+      "name": "telescope-sharp",
+      "tags": [
+        "sharp",
+        "telescope"
+      ]
+    },
+    {
       "name": "tennisball",
       "tags": [
         "tennisball"
@@ -9589,6 +10256,26 @@
         "thunderstorm",
         "weather",
         "whether"
+      ]
+    },
+    {
+      "name": "ticket",
+      "tags": [
+        "ticket"
+      ]
+    },
+    {
+      "name": "ticket-outline",
+      "tags": [
+        "outline",
+        "ticket"
+      ]
+    },
+    {
+      "name": "ticket-sharp",
+      "tags": [
+        "sharp",
+        "ticket"
       ]
     },
     {
@@ -9964,11 +10651,54 @@
       ]
     },
     {
+      "name": "unlink",
+      "tags": [
+        "unlink"
+      ]
+    },
+    {
+      "name": "unlink-outline",
+      "tags": [
+        "outline",
+        "unlink"
+      ]
+    },
+    {
+      "name": "unlink-sharp",
+      "tags": [
+        "sharp",
+        "unlink"
+      ]
+    },
+    {
       "name": "videocam",
       "tags": [
         "camera",
         "film",
         "movie",
+        "videocam"
+      ]
+    },
+    {
+      "name": "videocam-off",
+      "tags": [
+        "off",
+        "videocam"
+      ]
+    },
+    {
+      "name": "videocam-off-outline",
+      "tags": [
+        "off",
+        "outline",
+        "videocam"
+      ]
+    },
+    {
+      "name": "videocam-off-sharp",
+      "tags": [
+        "off",
+        "sharp",
         "videocam"
       ]
     },

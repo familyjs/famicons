@@ -1,13 +1,14 @@
 {
   "name": "famicons",
-  "version": "5.1.2",
+  "version": "5.5.4",
   "description": "Premium icons for Family.",
   "files": [
+    "components/",
     "dist/",
     "icons/"
   ],
-  "module": "dist/index.mjs",
-  "main": "dist/index.js",
+  "main": "./dist/index.cjs.js",
+  "module": "./dist/index.js",
   "types": "dist/types/index.d.ts",
   "unpkg": "dist/famicons.js",
   "collection": "dist/collection/collection-manifest.json",
@@ -18,27 +19,24 @@
     "build.component": "rindo build",
     "collection.copy": "node scripts/collection-copy.js",
     "start": "rindo build --dev --watch --serve",
-    "release.prepare": "node scripts/release.js --any-branch",
-    "release": "node scripts/release.js --publish --any-branch"
+    "test": "rindo test --spec",
+    "release": "np --no-2fa",
+    "version": "npm run build"
+  },
+  "dependencies": {
+    "@rindo/core": "~2.22.3"
   },
   "devDependencies": {
-    "@rindo/core": "^2.5.2",
-    "@types/execa": "^2.0.0",
-    "@types/fs-extra": "^9.0.1",
-    "@types/inquirer": "^6.5.0",
-    "@types/jest": "^26.0.3",
-    "@types/listr": "^0.14.2",
-    "@types/node": "^14.0.14",
+    "@types/fs-extra": "^9.0.6",
+    "@types/jest": "^26.0.20",
+    "@types/node": "^14.14.22",
     "@types/svgo": "^1.3.3",
-    "conventional-changelog-cli": "^2.0.34",
-    "execa": "^2.0.4",
-    "fs-extra": "9.0.1",
-    "inquirer": "^7.2.0",
-    "jest": "26.1.0",
-    "jest-cli": "26.1.0",
-    "listr": "^0.14.3",
+    "fs-extra": "^9.1.0",
+    "jest": "^26.6.3",
+    "jest-cli": "^26.6.3",
+    "np": "^7.2.0",
     "svgo": "1.3.2",
-    "typescript": "3.9.5"
+    "typescript": "^4.1.3"
   },
   "keywords": [
     "icon pack",
@@ -53,7 +51,7 @@
     "ios"
   ],
   "homepage": "https://famicons.web.app/",
-  "author": "Family Team",
+  "author": "NKDuy",
   "repository": {
     "type": "git",
     "url": "https://github.com/familyjs/famicons.git"

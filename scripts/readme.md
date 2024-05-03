@@ -32,6 +32,8 @@ To see the `fml-icon` component in action, run:
 
 The release script will ask what version to use. After the script completes, double check the `www/cheatsheet.html` to ensure everything is good to go.
 
+Next, update `CHANGELOG.md`, then commit and push your changes Github.
+
 Next run:
 
     npm run release

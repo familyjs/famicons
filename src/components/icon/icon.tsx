@@ -2,15 +2,15 @@ import { Build, Component, Element, Host, Prop, State, Watch, h } from '@rindo/c
 import { getSvgContent, famiconContent } from './request';
 import { getName, getUrl } from './utils';
 
-
 @Component({
   tag: 'fml-icon',
   assetsDirs: ['svg'],
   styleUrl: 'icon.css',
-  shadow: true
+  shadow: true,
 })
 export class Icon {
   private io?: IntersectionObserver;
+  private iconName: string | null = null;
 
   @Element() el!: HTMLElement;
 
@@ -33,6 +33,11 @@ export class Icon {
   @Prop({ mutable: true, reflect: true }) ariaLabel?: string;
 
   /**
+   * Set the icon to hidden, respectively `true`, to remove it from the accessibility tree.
+   */
+  @Prop({ reflect: true }) ariaHidden?: string;
+
+  /**
    * Specifies which icon to use on `ios` mode.
    */
   @Prop() ios?: string;
@@ -50,7 +55,7 @@ export class Icon {
   /**
    * Specifies which icon to use from the built-in set of icons.
    */
-  @Prop() name?: string;
+  @Prop({ reflect: true }) name?: string;
 
   /**
    * Specifies the exact `src` of an SVG file to use.
@@ -76,6 +81,14 @@ export class Icon {
    */
   @Prop() lazy = false;
 
+  /**
+   * When set to `false`, SVG content that is HTTP fetched will not be checked
+   * if the response SVG content has any `<script>` elements, or any attributes
+   * that start with `on`, such as `onclick`.
+   * @default true
+   */
+  @Prop() sanitize = true;
+
   connectedCallback() {
     // purposely do not return the promise here because loading
     // the svg file should not hold up loading the app
@@ -95,23 +108,24 @@ export class Icon {
 
   private waitUntilVisible(el: HTMLElement, rootMargin: string, cb: () => void) {
     if (Build.isBrowser && this.lazy && typeof window !== 'undefined' && (window as any).IntersectionObserver) {
-      const io = this.io = new (window as any).IntersectionObserver((data: IntersectionObserverEntry[]) => {
-        if (data[0].isIntersecting) {
-          io.disconnect();
-          this.io = undefined;
-          cb();
-        }
-      }, { rootMargin });
+      const io = (this.io = new (window as any).IntersectionObserver(
+        (data: IntersectionObserverEntry[]) => {
+          if (data[0].isIntersecting) {
+            io.disconnect();
+            this.io = undefined;
+            cb();
+          }
+        },
+        { rootMargin },
+      ));
 
       io.observe(el);
-
     } else {
       // browser doesn't support IntersectionObserver
       // so just fallback to always show it
       cb();
     }
   }
-
 
   @Watch('name')
   @Watch('src')
@@ -125,13 +139,14 @@ export class Icon {
           this.svgContent = famiconContent.get(url);
         } else {
           // async if it hasn't been loaded
-          getSvgContent(url).then(() => this.svgContent = famiconContent.get(url));
+          getSvgContent(url, this.sanitize).then(() => (this.svgContent = famiconContent.get(url)));
         }
       }
     }
 
-    if (!this.ariaLabel) {
-      const label = getName(this.name, this.icon, this.mode, this.ios, this.md);
+    const label = this.iconName = getName(this.name, this.icon, this.mode, this.ios, this.md);
+
+    if (!this.ariaLabel && this.ariaHidden !== 'true') {
       // user did not provide a label
       // come up with the label based on the icon name
       if (label) {
@@ -141,32 +156,42 @@ export class Icon {
   }
 
   render() {
+    const { iconName } = this;
     const mode = this.mode || 'md';
-    const flipRtl = this.flipRtl || (this.ariaLabel && (this.ariaLabel.indexOf('arrow') > -1 || this.ariaLabel.indexOf('chevron') > -1) && this.flipRtl !== false);
+    const flipRtl =
+      this.flipRtl ||
+      (iconName &&
+        (iconName.indexOf('arrow') > -1 || iconName.indexOf('chevron') > -1) &&
+        this.flipRtl !== false);
 
     return (
-      <Host role="img" class={{
-        [mode]: true,
-        ...createColorClasses(this.color),
-        [`icon-${this.size}`]: !!this.size,
-        'flip-rtl': !!flipRtl && (this.el.ownerDocument as Document).dir === 'rtl'
-        }}>{(
-          (Build.isBrowser && this.svgContent)
-            ? <div class="icon-inner" innerHTML={this.svgContent}></div>
-            : <div class="icon-inner"></div>
+      <Host
+        role="img"
+        class={{
+          [mode]: true,
+          ...createColorClasses(this.color),
+          [`icon-${this.size}`]: !!this.size,
+          'flip-rtl': !!flipRtl && (this.el.ownerDocument as Document).dir === 'rtl',
+        }}
+      >
+        {Build.isBrowser && this.svgContent ? (
+          <div class="icon-inner" innerHTML={this.svgContent}></div>
+        ) : (
+          <div class="icon-inner"></div>
         )}
       </Host>
     );
   }
 }
 
-
-const getFmlMode = () => (Build.isBrowser && typeof document !== 'undefined' && document.documentElement.getAttribute('mode')) || 'md';
-
+const getFmlMode = () =>
+  (Build.isBrowser && typeof document !== 'undefined' && document.documentElement.getAttribute('mode')) || 'md';
 
 const createColorClasses = (color: string | undefined) => {
-  return (color) ? {
-    'fml-color': true,
-    [`fml-color-${color}`]: true
-  } : null;
+  return color
+    ? {
+        'fml-color': true,
+        [`fml-color-${color}`]: true,
+      }
+    : null;
 };
