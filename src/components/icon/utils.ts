@@ -41,9 +41,16 @@ export const addIcons = (icons: { [name: string]: string; }) => {
 const addToIconMap = (name: string, data: any) => {
   const map = getIconMap();
 
-  if (map.get(name) === undefined) {
+  const existingIcon = map.get(name);
+
+  if (existingIcon === undefined) {
     map.set(name, data);
-  } else {
+
+    /**
+     * Importing and defining the same icon reference
+     * multiple times should not yield a warning.
+     */
+  } else if (existingIcon !== data) {
     console.warn(`[Famicons Warning]: Multiple icons were mapped to name "${name}". Ensure that multiple icons are not mapped to the same icon name.`)
   }
 }
