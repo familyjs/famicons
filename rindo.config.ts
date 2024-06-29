@@ -20,16 +20,8 @@ export const config: Config = {
       type: 'www',
       copy: [
         {
-          src: './components/test/*.svg',
-          dest: './assets/',
-        },
-        {
           src: './svg/*.svg',
           dest: './build/svg/',
-        },
-        {
-          src: './components/test/',
-          dest: './test/',
         }
       ],
       empty: false,
