@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.1.4](https://github.com/familyjs/famicons/compare/v7.2.2...v7.1.4) (2024-06-29)
+
+**Note:** Version bump only for package famicons
+
+
+
+
+
+## [7.1.4](https://github.com/familyjs/famicons/compare/v7.2.2...v7.1.4) (2024-06-29)
+
+**Note:** Version bump only for package famicons
+
+
+
+
+
 ## [7.1.3](https://github.com/familyjs/famicons/compare/v7.1.2...v7.1.3) (2024-06-29)
 
 
