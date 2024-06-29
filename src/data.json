@@ -7473,7 +7473,10 @@
     {
       "name": "open",
       "tags": [
-        "open"
+        "open",
+        "external",
+        "anchor",
+        "link"
       ]
     },
     {
