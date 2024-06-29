@@ -3,6 +3,7 @@ import { Config } from '@rindo/core';
 export const config: Config = {
   namespace: 'famicons',
   buildEs5: 'prod',
+  sourceMap: false,
   outputTargets: [
     {
       type: 'dist',

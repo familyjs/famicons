@@ -23,7 +23,7 @@
     "test.spec": "rindo test --spec"
   },
   "dependencies": {
-    "@rindo/core": "^2.18.1"
+    "@rindo/core": "^4.0.3"
   },
   "devDependencies": {
     "@playwright/test": "^1.26.1",
